@@ -2,11 +2,11 @@ html {
   box-sizing: border-box;
 }
 
-#nav-bar header {
+#navbar header {
   font-weight: bold;
 }
 
-#nav-bar ul {
+#navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -20,23 +20,23 @@ html {
   left: 0;
 }
 
-#nav-bar li {
+#navbar li {
   text-align: left;
   border-bottom: 1px solid #555;
 }
 
-#nav-bar li:hover {
+#navbar li:hover {
   background-color: green;
 }
 
-#nav-bar li a {
+#navbar li a {
   display: block;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
 }
 
-#nav-bar li:last-child {
+#navbar li:last-child {
   border-bottom: none;
 }
 
@@ -58,7 +58,7 @@ html {
 }
 
 @media (max-with: 430px) {
-  #nav-bar {
+  #navbar {
     width: 25%;
   }
   .main-section {
